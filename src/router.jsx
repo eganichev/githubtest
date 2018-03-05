@@ -19,8 +19,7 @@ export default () =>
         <GuestNavbar/>
         <Container style={{minHeight: '82.5%'}} className='mt-3'>
           <Switch>
-            <Route exact path='/:name' component={Project}/>
-            <Route exact path="/" component={Index}/>
+            <Route path="/" component={Index}/>
           </Switch>
         </Container>
       </div>

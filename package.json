@@ -39,6 +39,7 @@
     "animated-scroll-to": "^1.1.7",
     "antd": "^3.1.4",
     "axios": "^0.17.1",
+    "axios-cache-adapter": "^2.0.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",

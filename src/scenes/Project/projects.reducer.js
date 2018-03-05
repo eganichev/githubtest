@@ -2,7 +2,7 @@ import {GET_PROJECTS, GET_PROJECT, GET_PROJECT_CONTRIBUTORS} from "./projects.ac
 
 const initialState = {
   loading: false,
-  errors: [],
+  errors:null,
   projects: [],
   project: null,
   contributors: [],

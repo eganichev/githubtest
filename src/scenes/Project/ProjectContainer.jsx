@@ -19,7 +19,7 @@ export default class ProjectsContainer extends React.Component {
     if (loading) return <CenteredSpin/>
 
     if (errors) return <Alert message={errors.message} type="error"/>
-
+    if (!project) return null
 
     return <Card>
 

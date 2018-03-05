@@ -1,7 +1,14 @@
 import axios from 'axios'
 import to from '../to'
+import {setupCache} from 'axios-cache-adapter'
+
+
+const cache = setupCache({
+  maxAge: 15 * 60 * 1000
+})
 
 axios.defaults.headers.common['Accept'] = 'application/vnd.github.v3+json'
+axios.defaults.adapter = cache.adapter
 
 export const API_URL = 'https://api.github.com'
 
